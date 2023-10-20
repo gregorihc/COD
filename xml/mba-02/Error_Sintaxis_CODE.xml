@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<CertOrigin>
+  <CODEH id="CODEH">
+    <CODExporter>
+  <COD id="COD">
+    <CODVer/>
+    <CODSubmitterType/>
+    <Agreement>
+      <AgreementName>Acuerdo de Cartagena-CAN</AgreementName>
+      <AgreementAcronym>CA1</AgreementAcronym>
+    </Agreement>
+    <FormSGCAN>
+      <Exporter>
+        <ExporterCountry>BO</ExporterCountry>
+        <ExporterBusinessName>INDUSTRIAS OLEAGINOSAS S.A.</ExporterBusinessName>
+        <ExporterAddress>PARQUE INDUSTRIAL MZ. 19 AVENIDA PARQUE INDUSTRIAL MZ. 19</ExporterAddress>
+        <ExporterCityLocality>SANTA CRUZ DE LA SIERRA</ExporterCityLocality>
+        <ExporterTaxIdentification>1028467024</ExporterTaxIdentification>
+        <ExporterTelephone>33461035</ExporterTelephone>
+      </Exporter>
+      <Invoices>
+        <InvoiceQty>1</InvoiceQty>
+        <Invoice>
+          <InvoiceOrderNo>1</InvoiceOrderNo>
+          <InvoiceNo>5110020718</InvoiceNo>
+          <InvoiceDate>2023-07-26T00:00:00</InvoiceDate>
+        </Invoice>
+      </Invoices>
+      <GoodsList>
+        <GoodsQty>1</GoodsQty>
+        <Goods>
+          <GoodsOrderNo>1</GoodsOrderNo>
+          <GoodsInvoiceOrderNo>1</GoodsInvoiceOrderNo>
+          <GoodsItemCode>6767.44</GoodsItemCode>
+          <GoodsItemName>ACEITE CRUDO DESGOMADO DE SOYA</GoodsItemName>
+          <GoodsItemWeightAmount>109000</GoodsItemWeightAmount>
+          <GoodsItemMeasureUnit>TM</GoodsItemMeasureUnit>
+          <GoodsItemOriginRules>Decisi&#xF3;n 416, Art&#xED;culo 2, Literal c)</GoodsItemOriginRules>
+          <GoodsDeclarationDate>2023-04-25T18:37:20</GoodsDeclarationDate>
+        </Goods>
+      </GoodsList>
+      <Importer>
+        <ImporterCountry>CO</ImporterCountry>
+        <ImporterBusinessName>GRASAS S A</ImporterBusinessName>
+        <ImporterAddress>CALLE 11 N.18-113 BUGA</ImporterAddress>
+        <ImporterCity>VALLE DEL CAUCA</ImporterCity>
+        <ImporterTaxIdentification>3378239018</ImporterTaxIdentification>
+        <ImporterTelephone>.</ImporterTelephone>
+        <ImporterEmail>bejas@sen.com</ImporterEmail>
+      </Importer>
+      <Comments>
+        <GeneralComments>CONSIGNEE/NOTIFY:  GRASAS S.A.						
+               LAS MERCANCIAS DESCRITAS EN EL PRESENTE CERTIFICADO DE ORIGEN, SERAN COMERCIALIZADAS Y FACTURADAS POR LA EMPRESA BUNGE LATIN AMERICA, LLC DOMICILIADA EN 								
+               2655 S. LE JEUNE RD, SUITE 610, CORAL GABLE FL 33134, CIUDAD MIAMI, PAIS USA,  BAJO FACTURA NO. 5110020718  DE FECHA 26 DE JULIO, 2023 DESTINO: BUENAVENTURA, COLOMBIA</GeneralComments>
+        <Op3cComments>
+          <Op3cStatement>false</Op3cStatement>
+          <Op3cBusinessName/>
+          <Op3cAddress/>
+          <Op3cCountry/>
+        </Op3cComments>
+      </Comments>
+      <Declaration>
+        <DeclarationDate>2023-07-31T09:37:05</DeclarationDate>
+        <Affidavit>AffABC</Affidavit>
+      </Declaration>
+    </FormSGCAN>
+  </COD>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="#COD">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>YGytYCWZrVmYG8+jdkl3rzS07kEQEIr9QR6TdAalyDo=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+HJwYZKJozOpx/RLeRH4/O2h8rlj20p9O399b70Xu8p89DNZOK0T9jrP16RfKHSC/TuuC4/oOCRhS&#xD;
+llpEhQ8266VIeUtpRCixdFZVVbjJOS/bM6tNqxwP/Gs35gOlluHwywlMerSnbikmiwCjDF0OxuIg&#xD;
+BJ7WMPMuTHPddd9P4qlDmiuBTzZLDzrIJDVDq098B7yfWSocy+UKZxF0W4oIIxV9GkglkZiPABsf&#xD;
+2TtoP4zXRxzwuvi/6P/OtIXW/6TZolZCv0CD3TdiK+gHICMlCHIutbtPqeMMWaCFpEd1H2E/Pb4y&#xD;
+N2YwS2Gg2q9hLdXVuIm+iItRooUVM7fF3Oyv/w==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIHTjCCBTagAwIBAgIIH19EB8A5lMYwDQYJKoZIhvcNAQELBQAwSzEsMCoGA1UEAwwjRW50aWRh&#xD;
+ZCBDZXJ0aWZpY2Fkb3JhIFB1YmxpY2EgQURTSUIxDjAMBgNVBAoMBUFEU0lCMQswCQYDVQQGEwJC&#xD;
+TzAeFw0yMjEyMTkyMTAyMjBaFw0yMzEyMTkyMTAyMjBaMIIBCTELMAkGA1UELhMCQ0kxJjAkBgNV&#xD;
+BAMMHVZJQ1RPUiBDQVJMT1MgSklNRU5FWiBNVVJJTExPMRIwEAYDVQQFEwkxNjE1NDYwMjAxMzAx&#xD;
+BgNVBAwMKlBST0ZFU0lPTkFMIERFIFNJU1RFTUFTIFkgUFJPR1JBTUFDScOTTiBJSTEsMCoGA1UE&#xD;
+CwwjVU5JREFEIERFIFNJU1RFTUFTIFkgUExBTklGSUNBQ0nDk04xEDAOBgNVBAoMB1NFTkFWRVgx&#xD;
+CzAJBgNVBAYTAkJPMRQwEgYHKwYBAQEBAAwHMzM3ODIzOTEmMCQGA1UEDQwdUGVyc29uYSBKdXJp&#xD;
+ZGljYSBGaXJtYSBTaW1wbGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGDZCd/OjB&#xD;
+FC7tIWAocrnV58LdZNbcwwd0jVBBab7vxbEEX9QF3qe9JgiP0N1G2/gyf9oKKBoXzcJSN1CsaMY0&#xD;
+Ru2vOiQpa7Cx9ccTfWniuBBbuH7g9Kxmu4GkGxreRzR4ysFp0CR1F+i9aih6gFRIdgn11rbNwl/A&#xD;
+Wp1ph8zsPgPKNIz1zJBBB+qfjCVZP5xC/eQv/AcjUg/A0b+Um9+7s+X+sh8XujVhssSO2l9nA7Vd&#xD;
+VVCkzNqCnWZTiMQ3qWfkLIkLGgvUL34L/H+QYME/z2O17jt6UugkRnrfYMA5MNqFePL/vp2EtL7H&#xD;
+E0yj13iMvqW9/fGWQ6IrBuaRpXXlAgMBAAGjggJ0MIICcDB5BggrBgEFBQcBAQRtMGswOwYIKwYB&#xD;
+BQUHMAKGL2h0dHBzOi8vd3d3LmZpcm1hZGlnaXRhbC5iby9maXJtYWRpZ2l0YWxfYm8ucGVtMCwG&#xD;
+CCsGAQUFBzABhiBodHRwOi8vd3d3LmZpcm1hZGlnaXRhbC5iby9vY3NwLzAdBgNVHQ4EFgQUPebx&#xD;
+RQ9hqZXQT/fUOB5Lau6K9AowCQYDVR0TBAIwADAfBgNVHSMEGDAWgBTSmd3BbyUuJ6gL69zZ1pJb&#xD;
+YlWgwjCBvAYDVR0gBIG0MIGxMFAGDmBEAAAAAQ4BAgABAAAAMD4wPAYIKwYBBQUHAgEWMGh0dHBz&#xD;
+Oi8vd3d3LmZpcm1hZGlnaXRhbC5iby9wb2xpdGljYWp1cmlkaWNhLnBkZjBdBg9gRAAAAAEOAQIA&#xD;
+AQIBAAAwSjBIBggrBgEFBQcCAjA8HjoAUABlAHIAcwBvAG4AYQAgAEoAdQByAGkAZABpAGMAYQAg&#xD;
+AEYAaQByAG0AYQAgAFMAaQBtAHAAbABlMIGTBgNVHR8EgYswgYgwgYWgMqAwhi5odHRwOi8vd3d3&#xD;
+LmZpcm1hZGlnaXRhbC5iby9maXJtYWRpZ2l0YWxfYm8uY3Jsok+kTTBLMSwwKgYDVQQDDCNFbnRp&#xD;
+ZGFkIENlcnRpZmljYWRvcmEgUHVibGljYSBBRFNJQjEOMAwGA1UECgwFQURTSUIxCzAJBgNVBAYT&#xD;
+AkJPMAsGA1UdDwQEAwIE8DAnBgNVHSUEIDAeBggrBgEFBQcDAgYIKwYBBQUHAwMGCCsGAQUFBwME&#xD;
+MB0GA1UdEQQWMBSBEmNoYXJseWptQGdtYWlsLmNvbTANBgkqhkiG9w0BAQsFAAOCAgEAmsD9NtkZ&#xD;
+GYJitHpY17W6chZUxyVZ0FK5u4G4eN9L8TJV0XPqyt6nWvojuLwIVq/Wmb1GQc2i79d2YxwshnDf&#xD;
+NjHogQ/BRP7dznDEqPu5N5knfo+irbOyt35nnxFpsevWLL8NUpfBnGBZPOW8yIeqXmXDYeR0SSKS&#xD;
+J/oP0I56RS3j7+Rks20AMGdQw4kfsziVWBTKuvPsdpKdJKZ8+IToZzgpvMetLxNIpXjuVhPj284+&#xD;
+StVhQaxPzkuZGSg7pmRS0wGmedF2Q/w7S74U9qfe5W3zB+twZ6r+iS+AiW/uamD8o8q3dMlU+zkx&#xD;
+gYLlrKyRPlX8nTm9TMKarunofbnYlgyhu2OKcyEeWwaaeFLcrW/GA2W32HkyVOk0daMu1/Q8zuXb&#xD;
+M9vlt0PGa0KAfmPQKFdRANAFPiMraC6hY1qpLdP0M9ISdmQbvvr8m8io2xPvLbUJGF8TdUqSILZQ&#xD;
+7tM/sMK1vBSMxsFSJ+w/8owDPsOWkJGMkLFCDkrSQ39i8LoWO1KiO6eaBIoHkzles+V9VegpoD4d&#xD;
+F+d+AiGn6QPxXRVwkGpqFHFrGiFhVwSslSS9WVG7lepVu9+cTU0inSBAyT4CfEeHIVphfRG/x1a9&#xD;
+anR64tXo1wrz14XnrIox/86e0DExJDDheIaRCjHLu0Sqs7akuCp3dNOPauyU/33f3TM=
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></CODExporter>
+  <EH>
+  <EHId>SNV</EHId>
+  <EHCountry>BO</EHCountry>
+  <EHName>SERVICIO NACIONAL DE VERIFICACION DE EXPORTACIONES</EHName>
+  <EHAddress>AVENIDA CAMACHO, EDIFICIO: VICEMINISTERIO DE COMERCIO INTERIOR Y EXP, PISO 5</EHAddress>
+  <EHCityLocality>La Paz</EHCityLocality>
+  <EHTelephone>71994162</EHTelephone>
+  <EHEmail>soporte@senavex.gob.bo</EHEmail>
+  <EHURL>https://senavex.gob.bo/</EHURL>
+</EH><CertificationEH>
+  <CertificateControlCode>81</CertificateControlCode>
+  <CertificateDate>2023-10-20T10:43:39</CertificateDate>
+  <CertificateID>BOSNVCA12300000000000008100</CertificateID>
+</CertificationEH></CODEH>
+</CertOrigin>
