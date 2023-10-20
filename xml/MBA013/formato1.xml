@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CertOrigin xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xsi:noNamespaceSchemaLocation="../../Archivos%20XSD/CO/COD.xsd">
+
+    <CODEH id="CODEH">
+		<CODExporter>
+			<COD id="COD">
+				<CODVer>0.0.0</CODVer>
+				<CODSubmitterType>EXP</CODSubmitterType>
+				<Agreement>
+					<AgreementName>aaa</AgreementName>
+					<AgreementAcronym>R01</AgreementAcronym>
+				</Agreement>
+				<FormSGCAN>
+					<Exporter>
+						<ExporterCountry>AR</ExporterCountry>
+						<ExporterBusinessName>a</ExporterBusinessName>
+						<ExporterAddress>a</ExporterAddress>
+						<ExporterCityLocality>a</ExporterCityLocality>
+						<ExporterTaxIdentification>a</ExporterTaxIdentification>
+						<ExporterTelephone>00000000</ExporterTelephone>
+						<ExporterEmail>% @ %</ExporterEmail>
+						<ExporterURL>http://www.intercom.com/</ExporterURL>
+					</Exporter>
+					<Invoices>
+						<InvoiceQty>99999</InvoiceQty>
+						<Invoice>
+							<InvoiceOrderNo>99999</InvoiceOrderNo>
+							<InvoiceNo>a</InvoiceNo>
+							<InvoiceDate>2001-12-17T09:30:47Z</InvoiceDate>
+						</Invoice>
+						<Invoice>
+							<InvoiceOrderNo>99999</InvoiceOrderNo>
+							<InvoiceNo>a</InvoiceNo>
+							<InvoiceDate>2001-12-17T09:30:47Z</InvoiceDate>
+						</Invoice>
+					</Invoices>
+					<GoodsList>
+						<GoodsQty>99999</GoodsQty>
+						<Goods>
+							<GoodsOrderNo>99999</GoodsOrderNo>
+							<GoodsInvoiceOrderNo>99999</GoodsInvoiceOrderNo>
+							<GoodsItemCode>0000.00</GoodsItemCode>
+							<GoodsItemName>a</GoodsItemName>
+							<GoodsItemWeightAmount>0.0001</GoodsItemWeightAmount>
+							<GoodsItemMeasureUnit>a</GoodsItemMeasureUnit>
+							<GoodsItemOriginRules>a</GoodsItemOriginRules>
+							<GoodsDeclarationDate>2001-12-17T09:30:47Z</GoodsDeclarationDate>
+						</Goods>
+						<Goods>
+							<GoodsOrderNo>99999</GoodsOrderNo>
+							<GoodsInvoiceOrderNo>99999</GoodsInvoiceOrderNo>
+							<GoodsItemCode>0000.00</GoodsItemCode>
+							<GoodsItemName>a</GoodsItemName>
+							<GoodsItemWeightAmount>0.0001</GoodsItemWeightAmount>
+							<GoodsItemMeasureUnit>a</GoodsItemMeasureUnit>
+							<GoodsItemOriginRules>a</GoodsItemOriginRules>
+							<GoodsDeclarationDate>2001-12-17T09:30:47Z</GoodsDeclarationDate>
+						</Goods>
+					</GoodsList>
+					<Importer>
+						<ImporterCountry>BO</ImporterCountry>
+						<ImporterBusinessName>a</ImporterBusinessName>
+						<ImporterAddress>a</ImporterAddress>
+						<ImporterCity>a</ImporterCity>
+						<ImporterTaxIdentification>a</ImporterTaxIdentification>
+						<ImporterTelephone>00000000</ImporterTelephone>
+						<ImporterEmail>% @ %</ImporterEmail>
+						<ImporterURL>http://www.intercom.com/</ImporterURL>
+					</Importer>
+					<Comments>
+						<GeneralComments>a</GeneralComments>
+						<Op3cComments>
+							<Op3cStatement>true</Op3cStatement>
+							<Op3cBusinessName>a</Op3cBusinessName>
+							<Op3cAddress>a</Op3cAddress>
+							<Op3cCountry>a</Op3cCountry>
+						</Op3cComments>
+					</Comments>
+					<Declaration>
+						<DeclarationDate>2001-12-17T09:30:47Z</DeclarationDate>
+						<Affidavit>a</Affidavit>
+					</Declaration>
+				</FormSGCAN>
+			</COD>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+        <ds:Reference URI="#COD">
+            <ds:Transforms>
+                <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <ds:DigestValue>5LcgO7l+NldOHoRfDxVssdFSZa3TbrbOKomN6MDsFBk=</ds:DigestValue>
+        </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>gjbNWXbRjU5o3yDV0biktPeMOGRIoFVBayElzAOcrP9vdj5tdtjT0mjPIltBnKJgjGBzEFYJ158+c+8ydoIGPuJlRuoIw1ORrmeH5M54WLMZ4gu9fWOUkVH3HpuHoQ4sxl3hh3oVaLlJ0Cxv0+PqShHvOR+hUq4uBTh0aOcf9Ta+uN20hf7u+V0vfRBZdBHsSy0Bpe0xWRuvKkN6ikuB5RP6hj+9yo6C9muDkOo0AQYSFTvnjuNjPiHZAmk6NLIVh0vCOCs46TqwrWBiUuo5AEnofPzcABllZ3ZDMxWku+aqkxYp9Dcl+wjjMbQDXq0ZCRgvZFXx8ae0ogqsF+VBuJlbFI2EN/rRkU/YJ/JsSZsq/QjPcyKDHtlse1aLcfu0yp0APvB8oRx/rAZnVM4k+5bErmeZD2G+C/oHxCYV+nxXdptxMaqDhFcgnUSRTZpySq9yq8Z5YvA2+RKguwR1HkHCkuO1zZZk7v/3E8H+ewmYlycutrzM0sKvAb4QBgnW</ds:SignatureValue>
+    <ds:KeyInfo>
+        <ds:X509Data>
+            <ds:X509Certificate>MIIDnzCCAgegAwIBAgIJAM+ecQiPaGWpMA0GCSqGSIb3DQEBCwUAMA8xDTALBgNVBAMTBHRlc3QwHhcNMjMwOTAxMDIzNjUwWhcNMjMxMDExMDIzNjUwWjAPMQ0wCwYDVQQDEwR0ZXN0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAv14ef7tkh4MIq0ufpuvadXxqsbTdl98ea6t2MTuxPskZlSEMxGI2DhpdqMqD6t2jev5OLZKgAsDA7tXM1cSv5cDAuFO2xWgppwJlXPUIEI8KqkwqhiJfAbid2DFjbVOiat5mEzF+PaKzofsaAXH+FLiYwiBG9iDISkBDMjUjdB8rEcjCSTT2H2/TqeQcsdD1w1fH6X1w7uQw7GPEK+Y1LR+ZE07f0r51hgQ8d1fz2OP9YcK8iaefVnLdJ0IW0+7D2XZRxa3fvpZZ16rB5tVE6gvE2u6gGNz+foyTWpBZCIDn5Mn2r2jCBr8ydNTRE7SEm/2C4MuWK77obU3hDMK1S9eiXwGjv/8FYgpbAyR/VZRu/6iS8g688fMIcnZurrbeyZWNV6BZ8+3i6x65dA26zDlVeREFc4nI5spenEfX64fTRUtbetXSDASOHm6mFjp8Oqzfdg0X6YZrQ++vSq7pdVjvDpwJ5LAxTt9sHcvT9byHbBpH8ONzAmBohkM+cmiRAgMBAAEwDQYJKoZIhvcNAQELBQADggGBAGg5pcd/CWC+u+WQGZxtDkUtKG0lkK7JQx1kfqvqc5CECHepCj3h9eL5MEp/qq0Xns91xSqnOpOyaqDxfuXwhHfcV+OBSOzDLjeVXvxEnTSnRpafyOeSDpb0BTiYETtBA7JXP8712qQB0EifzP7/l11I+ZGjOWgnMCJR/zVv8DAj+5x0l0h8s9Cd5sbbxL+nQ6IaqAbTTNk0lj2T4JDzQIoGYKhvVLU72XZSspLoCnimeoapgZ+IpRfWbUqln8/dohi8AkyC0bhqa8yO53ib1DEAIgyhK21iuk5oOmrSjybqefhDCVQodzS+IoRw6CGidoCo1ao/3P0BW12NIGEtVln0/Dg20OneiId9Fbw+I8a8lHX+LO46l8iZibN+V4Xjfuu5SUd+HFxrVoQYH8gBB/fG9IE3JbJcxiC/2hnSEoCWpx8vb0bdeiyVeVo+4ttfcE4KNmdt7kyq5jJfGl6B6mChsY20aB4S853wGCDuRY7MRkQ4aoDX2skt2wpyFHka3Q==</ds:X509Certificate>
+        </ds:X509Data>
+    </ds:KeyInfo>
+</ds:Signature>
+		</CODExporter>
+		<EH>
+			<EHId>000</EHId>
+			<EHCountry>BR</EHCountry>
+			<EHName>a</EHName>
+			<EHAddress>a</EHAddress>
+			<EHCityLocality>a</EHCityLocality>
+			<EHTelephone>00000000</EHTelephone>
+			<EHEmail>% @ %</EHEmail>
+			<EHURL>http://www.intercom.com/</EHURL>
+		</EH>
+		<CertificationEH>
+			<CertificateControlCode>a</CertificateControlCode>
+			<CertificateDate>2001-12-17T09:30:47Z</CertificateDate>
+			<CertificateID>BO000A00112---------------13</CertificateID>
+		</CertificationEH>
+	</CODEH>
+</CertOrigin>
