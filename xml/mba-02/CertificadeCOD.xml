@@ -1,123 +1,141 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CertOrigin xmlns:ds="http://www.w3.org/2000/09/xmldsig#" 
-		    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		    xsi:noNamespaceSchemaLocation="../../Archivos%20XSD/CO/COD.xsd">
-		    
-	<CODEH id="CODEH">
-		<CODExporter>
-			<COD id="COD">
-				<CODVer>0.0.0</CODVer>
-				<CODSubmitterType>EXP</CODSubmitterType>
-				<Agreement>
-					<AgreementName>aaa</AgreementName>
-					<AgreementAcronym>R01</AgreementAcronym>
-				</Agreement>
-				<FormSGCAN>
-					<Exporter>
-						<ExporterCountry>AR</ExporterCountry>
-						<ExporterBusinessName>a</ExporterBusinessName>
-						<ExporterAddress>a</ExporterAddress>
-						<ExporterCityLocality>a</ExporterCityLocality>
-						<ExporterTaxIdentification>a</ExporterTaxIdentification>
-						<ExporterTelephone>00000000</ExporterTelephone>
-						<!--<ExporterEmail>intercom02@hotmail.com</ExporterEmail>-->
-						<ExporterURL>http://www.intercom.com/</ExporterURL>
-					</Exporter>
-					<Invoices>
-						<InvoiceQty>99999</InvoiceQty>
-						<Invoice>
-							<InvoiceOrderNo>99999</InvoiceOrderNo>
-							<InvoiceNo>a</InvoiceNo>
-							<InvoiceDate>2001-12-17T09:30:47Z</InvoiceDate>
-						</Invoice>
-						<Invoice>
-							<InvoiceOrderNo>99999</InvoiceOrderNo>
-							<InvoiceNo>a</InvoiceNo>
-							<InvoiceDate>2001-12-17T09:30:47Z</InvoiceDate>
-						</Invoice>
-					</Invoices>
-					<GoodsList>
-						<GoodsQty>99999</GoodsQty>
-						<Goods>
-							<GoodsOrderNo>99999</GoodsOrderNo>
-							<GoodsInvoiceOrderNo>99999</GoodsInvoiceOrderNo>
-							<GoodsItemCode>0000.00</GoodsItemCode>
-							<GoodsItemName>a</GoodsItemName>
-							<GoodsItemWeightAmount>0.0001</GoodsItemWeightAmount>
-							<GoodsItemMeasureUnit>a</GoodsItemMeasureUnit>
-							<GoodsItemOriginRules>a</GoodsItemOriginRules>
-							<GoodsDeclarationDate>2001-12-17T09:30:47Z</GoodsDeclarationDate>
-						</Goods>
-						<Goods>
-							<GoodsOrderNo>99999</GoodsOrderNo>
-							<GoodsInvoiceOrderNo>99999</GoodsInvoiceOrderNo>
-							<GoodsItemCode>0000.00</GoodsItemCode>
-							<GoodsItemName>a</GoodsItemName>
-							<GoodsItemWeightAmount>0.0001</GoodsItemWeightAmount>
-							<GoodsItemMeasureUnit>a</GoodsItemMeasureUnit>
-							<GoodsItemOriginRules>a</GoodsItemOriginRules>
-							<GoodsDeclarationDate>2001-12-17T09:30:47Z</GoodsDeclarationDate>
-						</Goods>
-					</GoodsList>
-					<Importer>
-						<ImporterCountry>BO</ImporterCountry>
-						<ImporterBusinessName>a</ImporterBusinessName>
-						<ImporterAddress>a</ImporterAddress>
-						<ImporterCity>a</ImporterCity>
-						<ImporterTaxIdentification>a</ImporterTaxIdentification>
-						<ImporterTelephone>00000000</ImporterTelephone>
-						<!--<ImporterEmail>intercom01@hotmail.com</ImporterEmail>-->
-						<ImporterURL>http://www.intercom.com/</ImporterURL>
-					</Importer>
-					<Comments>
-						<GeneralComments>a</GeneralComments>
-						<Op3cComments>
-							<Op3cStatement>true</Op3cStatement>
-							<Op3cBusinessName>a</Op3cBusinessName>
-							<Op3cAddress>a</Op3cAddress>
-							<Op3cCountry>a</Op3cCountry>
-						</Op3cComments>
-					</Comments>
-					<Declaration>
-						<DeclarationDate>2001-12-17T09:30:47Z</DeclarationDate>
-						<Affidavit>a</Affidavit>
-					</Declaration>
-				</FormSGCAN>
-			</COD>
-			<ds:Signature Id="ID1">
-				<ds:SignedInfo>
-					<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
-					<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-					<ds:Reference URI="">
-						<ds:Transforms>
-							<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
-							<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-						</ds:Transforms>
-						<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-						<ds:DigestValue>AYWB84k+zUoI+KbtDqCetpAlGjhujeYYYYK7hZWbKlU=</ds:DigestValue>
-					</ds:Reference>
-				</ds:SignedInfo>
-				<ds:SignatureValue>GVIH9HWhKO8LWd7uWx/SIY09nqgO5kPpWr3kkBr6nUfa/1/WOn02aYEG+X86OKhJeRmd8TCjycEcWA6oO8lzKcolXf76LiRmQK7QG69I0/VVFzESfTQVcrZm4iqopUSHJgdQRtHrQ0wZR1BaADbX1egqCpZtEUhxbB8jIoFG3EVISO9iDq1r4RDikUcQU8UhtLazz521ZKIGSglbMTdA0YpVPXlNVT+ZQIIdCmoGTQ9QtLId0HmLjB5TADqpNeUptsYoXuzl31WCClQUr8KchQyGxCE2PWP/5xAFJu81SU3gICYExm/4kVknJmQnmXVhPK2sFmYw7+wZhuIlbUazQLfF3e1o/f0ntHaTslhnjDcN/kZod4f/gCG60rgn1Fht9+xjlonAh6mwIJ5IkKLl0hfBvbIcXKUEFKqHKkJ7bNXFyXN3E2DpdbrmDrMRGmrFo9swNB2IQouij6InI+f9S1v8MCv7PCrJ+4U26gz1Kx1xbf3os+MNF7sqeWC0vE5M</ds:SignatureValue>
-				<ds:KeyInfo>
-					<ds:X509Data>						<ds:X509Certificate>MIIDnjCCAgagAwIBAgIITUC862EHf3owDQYJKoZIhvcNAQELBQAwDzENMAsGA1UEAxMEdGVzdDAeFw0yMzA4MDQxODM1MzJaFw0yMzA5MTMxODM1MzJaMA8xDTALBgNVBAMTBHRlc3QwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDCSnqHGPTqQt5Wak6t/oKB5A7gQkBZ5OJD2ZNlzyUEdhuRWV9pBhkvfKWBUURnTAEfRDjQoOONeE4pelFL5LRd92NRDr/5fiZYK7KDkt19y+WtYY6yYX/90OpzvQGyNzGIAXVXV29AJNiDaOGwaYlF4KRJRqMmPgwFU2DzH7yGuf5ZMG1Kc9UrwMx/9XP4MHlbdlczUEGMQQyB3ke2hGZKd3WBfg8z7tJAhliRLMU3gsrQLDt9JNx8zFXnEJMDUBbdQVH6X/XiZuKrNekJQ+yqVBxwxsJchqTgEyurPoeSrCqzjj15k7teIvlWQb8CTallFsJzw123bok/B/kpEqMCVaTBbWdi6qEjUnLDiDqSmQWsj+l7VX4DC47S7AcBUYiBrQ2QsYaD15Bdc5JLRhHnxvSyWPsK6pdB+3tsLdJkAypdXnWD3kAe8uGjUBcjulXrYke8ggQhyK1oJGwZ6U8AmLo+KIX202H3vgwg5ZPBhpKbKKfNeC3Jp2QjvN8zmk0CAwEAATANBgkqhkiG9w0BAQsFAAOCAYEAcqQFncZXrGszPKx83YMie4YXicXQBy5oP0Nf2jsWjOAdioS2pCCqsnGaHBxGGR6HkBe/L+WT4GmluB8jCRvQEkXBINJ8iGjxcYNeZa8mD0JbLI+v/1H+uI2WuYRwBF0seRpEDJGz3EU/lVNq341M3NzqC7halU1hCo0BYV4kKcAeEkh/8dKe5FTz/JnOdrUbybySa7i/DH0vFvG7W0lgupC6U40vC/e1z+3kgWeCqpwhavygyvPx2dDEUXnLblYe02XsbD7WIrzWotQh/55l3z13feyf4ypbbn4mI0aHX2umNo51TNmZY6LIcbk3IPTF9H8XusMOjHsxKgeAEjED1eOhlVX/0JckkHtTTMtY45Q5o90ggZLHCO2FDCO/FjCBpvzpVYney3VtcPdadDpg9y9U6X2SzfrNvx8k2xaeNmzx33+vu4OYdDweSPfJgNIAJjeuBwsRVPVw0KjRcVnbgM5p2ii1vclnTCVTSuWqchyEYD9vE44GoR2RPa/QV6Rj</ds:X509Certificate>
-					</ds:X509Data>
-				</ds:KeyInfo>
-			</ds:Signature>
-		</CODExporter>
-		<EH>
-			<EHId>000</EHId>
-			<EHCountry>BR</EHCountry>
-			<EHName>a</EHName>
-			<EHAddress>a</EHAddress>
-			<EHCityLocality>a</EHCityLocality>
-			<EHTelephone>00000000</EHTelephone>
-			<EHEmail>intercom03@hotmail.com</EHEmail>
-			<EHURL>http://www.intercom.com/</EHURL>
-		</EH>
-		<CertificationEH>
-			<CertificateControlCode>a</CertificateControlCode>
-			<CertificateDate>2001-12-17T09:30:47Z</CertificateDate>
-			<CertificateID>BO000A0000---------------00</CertificateID>
-		</CertificationEH>
-	</CODEH>
+<?xml version="1.0"?>
+<CertOrigin>
+  <CODEH id="CODEH">
+    <CODExporter>
+  <COD id="COD">
+    <CODVer/>
+    <CODSubmitterType/>
+    <Agreement>
+      <AgreementName>Acuerdo de Cartagena-CAN</AgreementName>
+      <AgreementAcronym>CA1</AgreementAcronym>
+    </Agreement>
+    <FormSGCAN>
+      <Exporter>
+        <ExporterCountry>BO</ExporterCountry>
+        <ExporterBusinessName>INDUSTRIAS OLEAGINOSAS S.A.</ExporterBusinessName>
+        <ExporterAddress>PARQUE INDUSTRIAL MZ. 19 AVENIDA PARQUE INDUSTRIAL MZ. 19</ExporterAddress>
+        <ExporterCityLocality>SANTA CRUZ DE LA SIERRA</ExporterCityLocality>
+        <ExporterTaxIdentification>1028467024</ExporterTaxIdentification>
+        <ExporterTelephone>33461035</ExporterTelephone>
+      </Exporter>
+      <Invoices>
+        <InvoiceQty>1</InvoiceQty>
+        <Invoice>
+          <InvoiceOrderNo>1</InvoiceOrderNo>
+          <InvoiceNo>5110020718</InvoiceNo>
+          <InvoiceDate>2023-07-26T00:00:00</InvoiceDate>
+        </Invoice>
+      </Invoices>
+      <GoodsList>
+        <GoodsQty>1</GoodsQty>
+        <Goods>
+          <GoodsOrderNo>1</GoodsOrderNo>
+          <GoodsInvoiceOrderNo>1</GoodsInvoiceOrderNo>
+          <GoodsItemCode>6767.44</GoodsItemCode>
+          <GoodsItemName>ACEITE CRUDO DESGOMADO DE SOYA</GoodsItemName>
+          <GoodsItemWeightAmount>109000</GoodsItemWeightAmount>
+          <GoodsItemMeasureUnit>TM</GoodsItemMeasureUnit>
+          <GoodsItemOriginRules>Decisi&#xF3;n 416, Art&#xED;culo 2, Literal c)</GoodsItemOriginRules>
+          <GoodsDeclarationDate>2023-04-25T18:37:20</GoodsDeclarationDate>
+        </Goods>
+      </GoodsList>
+      <Importer>
+        <ImporterCountry>CO</ImporterCountry>
+        <ImporterBusinessName>GRASAS S A</ImporterBusinessName>
+        <ImporterAddress>CALLE 11 N.18-113 BUGA</ImporterAddress>
+        <ImporterCity>VALLE DEL CAUCA</ImporterCity>
+        <ImporterTaxIdentification>3378239018</ImporterTaxIdentification>
+        <ImporterTelephone>.</ImporterTelephone>
+        <ImporterEmail>bejas@sen.com</ImporterEmail>
+      </Importer>
+      <Comments>
+        <GeneralComments>CONSIGNEE/NOTIFY:  GRASAS S.A.						
+               LAS MERCANCIAS DESCRITAS EN EL PRESENTE CERTIFICADO DE ORIGEN, SERAN COMERCIALIZADAS Y FACTURADAS POR LA EMPRESA BUNGE LATIN AMERICA, LLC DOMICILIADA EN 								
+               2655 S. LE JEUNE RD, SUITE 610, CORAL GABLE FL 33134, CIUDAD MIAMI, PAIS USA,  BAJO FACTURA NO. 5110020718  DE FECHA 26 DE JULIO, 2023 DESTINO: BUENAVENTURA, COLOMBIA</GeneralComments>
+        <Op3cComments>
+          <Op3cStatement>false</Op3cStatement>
+          <Op3cBusinessName/>
+          <Op3cAddress/>
+          <Op3cCountry/>
+        </Op3cComments>
+      </Comments>
+      <Declaration>
+        <DeclarationDate>2023-07-31T09:37:05</DeclarationDate>
+        <Affidavit>AffABC</Affidavit>
+      </Declaration>
+    </FormSGCAN>
+  </COD>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="#COD">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>YGytYCWZrVmYG8+jdkl3rzS07kEQEIr9QR6TdAalyDo=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+HJwYZKJozOpx/RLeRH4/O2h8rlj20p9O399b70Xu8p89DNZOK0T9jrP16RfKHSC/TuuC4/oOCRhS&#xD;
+llpEhQ8266VIeUtpRCixdFZVVbjJOS/bM6tNqxwP/Gs35gOlluHwywlMerSnbikmiwCjDF0OxuIg&#xD;
+BJ7WMPMuTHPddd9P4qlDmiuBTzZLDzrIJDVDq098B7yfWSocy+UKZxF0W4oIIxV9GkglkZiPABsf&#xD;
+2TtoP4zXRxzwuvi/6P/OtIXW/6TZolZCv0CD3TdiK+gHICMlCHIutbtPqeMMWaCFpEd1H2E/Pb4y&#xD;
+N2YwS2Gg2q9hLdXVuIm+iItRooUVM7fF3Oyv/w==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIHTjCCBTagAwIBAgIIH19EB8A5lMYwDQYJKoZIhvcNAQELBQAwSzEsMCoGA1UEAwwjRW50aWRh&#xD;
+ZCBDZXJ0aWZpY2Fkb3JhIFB1YmxpY2EgQURTSUIxDjAMBgNVBAoMBUFEU0lCMQswCQYDVQQGEwJC&#xD;
+TzAeFw0yMjEyMTkyMTAyMjBaFw0yMzEyMTkyMTAyMjBaMIIBCTELMAkGA1UELhMCQ0kxJjAkBgNV&#xD;
+BAMMHVZJQ1RPUiBDQVJMT1MgSklNRU5FWiBNVVJJTExPMRIwEAYDVQQFEwkxNjE1NDYwMjAxMzAx&#xD;
+BgNVBAwMKlBST0ZFU0lPTkFMIERFIFNJU1RFTUFTIFkgUFJPR1JBTUFDScOTTiBJSTEsMCoGA1UE&#xD;
+CwwjVU5JREFEIERFIFNJU1RFTUFTIFkgUExBTklGSUNBQ0nDk04xEDAOBgNVBAoMB1NFTkFWRVgx&#xD;
+CzAJBgNVBAYTAkJPMRQwEgYHKwYBAQEBAAwHMzM3ODIzOTEmMCQGA1UEDQwdUGVyc29uYSBKdXJp&#xD;
+ZGljYSBGaXJtYSBTaW1wbGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGDZCd/OjB&#xD;
+FC7tIWAocrnV58LdZNbcwwd0jVBBab7vxbEEX9QF3qe9JgiP0N1G2/gyf9oKKBoXzcJSN1CsaMY0&#xD;
+Ru2vOiQpa7Cx9ccTfWniuBBbuH7g9Kxmu4GkGxreRzR4ysFp0CR1F+i9aih6gFRIdgn11rbNwl/A&#xD;
+Wp1ph8zsPgPKNIz1zJBBB+qfjCVZP5xC/eQv/AcjUg/A0b+Um9+7s+X+sh8XujVhssSO2l9nA7Vd&#xD;
+VVCkzNqCnWZTiMQ3qWfkLIkLGgvUL34L/H+QYME/z2O17jt6UugkRnrfYMA5MNqFePL/vp2EtL7H&#xD;
+E0yj13iMvqW9/fGWQ6IrBuaRpXXlAgMBAAGjggJ0MIICcDB5BggrBgEFBQcBAQRtMGswOwYIKwYB&#xD;
+BQUHMAKGL2h0dHBzOi8vd3d3LmZpcm1hZGlnaXRhbC5iby9maXJtYWRpZ2l0YWxfYm8ucGVtMCwG&#xD;
+CCsGAQUFBzABhiBodHRwOi8vd3d3LmZpcm1hZGlnaXRhbC5iby9vY3NwLzAdBgNVHQ4EFgQUPebx&#xD;
+RQ9hqZXQT/fUOB5Lau6K9AowCQYDVR0TBAIwADAfBgNVHSMEGDAWgBTSmd3BbyUuJ6gL69zZ1pJb&#xD;
+YlWgwjCBvAYDVR0gBIG0MIGxMFAGDmBEAAAAAQ4BAgABAAAAMD4wPAYIKwYBBQUHAgEWMGh0dHBz&#xD;
+Oi8vd3d3LmZpcm1hZGlnaXRhbC5iby9wb2xpdGljYWp1cmlkaWNhLnBkZjBdBg9gRAAAAAEOAQIA&#xD;
+AQIBAAAwSjBIBggrBgEFBQcCAjA8HjoAUABlAHIAcwBvAG4AYQAgAEoAdQByAGkAZABpAGMAYQAg&#xD;
+AEYAaQByAG0AYQAgAFMAaQBtAHAAbABlMIGTBgNVHR8EgYswgYgwgYWgMqAwhi5odHRwOi8vd3d3&#xD;
+LmZpcm1hZGlnaXRhbC5iby9maXJtYWRpZ2l0YWxfYm8uY3Jsok+kTTBLMSwwKgYDVQQDDCNFbnRp&#xD;
+ZGFkIENlcnRpZmljYWRvcmEgUHVibGljYSBBRFNJQjEOMAwGA1UECgwFQURTSUIxCzAJBgNVBAYT&#xD;
+AkJPMAsGA1UdDwQEAwIE8DAnBgNVHSUEIDAeBggrBgEFBQcDAgYIKwYBBQUHAwMGCCsGAQUFBwME&#xD;
+MB0GA1UdEQQWMBSBEmNoYXJseWptQGdtYWlsLmNvbTANBgkqhkiG9w0BAQsFAAOCAgEAmsD9NtkZ&#xD;
+GYJitHpY17W6chZUxyVZ0FK5u4G4eN9L8TJV0XPqyt6nWvojuLwIVq/Wmb1GQc2i79d2YxwshnDf&#xD;
+NjHogQ/BRP7dznDEqPu5N5knfo+irbOyt35nnxFpsevWLL8NUpfBnGBZPOW8yIeqXmXDYeR0SSKS&#xD;
+J/oP0I56RS3j7+Rks20AMGdQw4kfsziVWBTKuvPsdpKdJKZ8+IToZzgpvMetLxNIpXjuVhPj284+&#xD;
+StVhQaxPzkuZGSg7pmRS0wGmedF2Q/w7S74U9qfe5W3zB+twZ6r+iS+AiW/uamD8o8q3dMlU+zkx&#xD;
+gYLlrKyRPlX8nTm9TMKarunofbnYlgyhu2OKcyEeWwaaeFLcrW/GA2W32HkyVOk0daMu1/Q8zuXb&#xD;
+M9vlt0PGa0KAfmPQKFdRANAFPiMraC6hY1qpLdP0M9ISdmQbvvr8m8io2xPvLbUJGF8TdUqSILZQ&#xD;
+7tM/sMK1vBSMxsFSJ+w/8owDPsOWkJGMkLFCDkrSQ39i8LoWO1KiO6eaBIoHkzles+V9VegpoD4d&#xD;
+F+d+AiGn6QPxXRVwkGpqFHFrGiFhVwSslSS9WVG7lepVu9+cTU0inSBAyT4CfEeHIVphfRG/x1a9&#xD;
+anR64tXo1wrz14XnrIox/86e0DExJDDheIaRCjHLu0Sqs7akuCp3dNOPauyU/33f3TM=
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></CODExporter>
+  <EH>
+  <EHId>SNV</EHId>
+  <EHCountry>BO</EHCountry>
+  <EHName>SERVICIO NACIONAL DE VERIFICACION DE EXPORTACIONES</EHName>
+  <EHAddress>AVENIDA CAMACHO, EDIFICIO: VICEMINISTERIO DE COMERCIO INTERIOR Y EXP, PISO 5</EHAddress>
+  <EHCityLocality>La Paz</EHCityLocality>
+  <EHTelephone>71994162</EHTelephone>
+  <EHEmail>soporte@senavex.gob.bo</EHEmail>
+  <EHURL>https://senavex.gob.bo/</EHURL>
+</EH><CertificationEH>
+  <CertificateControlCode>81</CertificateControlCode>
+  <CertificateDate>2023-10-20T10:43:39</CertificateDate>
+  <CertificateID>BOSNVCA12300000000000008100</CertificateID>
+</CertificationEH></CODEH>
 </CertOrigin>
