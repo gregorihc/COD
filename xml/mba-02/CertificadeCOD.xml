@@ -16,7 +16,7 @@
         <ExporterAddress>PARQUE INDUSTRIAL MZ. 19 AVENIDA PARQUE INDUSTRIAL MZ. 19</ExporterAddress>
         <ExporterCityLocality>SANTA CRUZ DE LA SIERRA</ExporterCityLocality>
         <ExporterTaxIdentification>1028467024</ExporterTaxIdentification>
-        <ExporterTelephone>33461035</ExporterTelephone>
+        <!--<ExporterTelephone>33461035</ExporterTelephone>-->
       </Exporter>
       <Invoices>
         <InvoiceQty>1</InvoiceQty>
@@ -136,6 +136,6 @@ anR64tXo1wrz14XnrIox/86e0DExJDDheIaRCjHLu0Sqs7akuCp3dNOPauyU/33f3TM=
 </EH><CertificationEH>
   <CertificateControlCode>81</CertificateControlCode>
   <CertificateDate>2023-10-20T10:43:39</CertificateDate>
-  <CertificateID>BOSNVCA12300000000000008100</CertificateID>
+  <CertificateID>BOSNVCA123000000000000118100</CertificateID>
 </CertificationEH></CODEH>
 </CertOrigin>
