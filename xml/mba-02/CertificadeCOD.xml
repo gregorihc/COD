@@ -27,12 +27,12 @@
 						<InvoiceQty>99999</InvoiceQty>
 						<Invoice>
 							<InvoiceOrderNo>99999</InvoiceOrderNo>
-							<InvoiceNo>a</InvoiceNo>
+							<InvoiceNo>a-01</InvoiceNo>
 							<InvoiceDate>2001-12-17T09:30:47Z</InvoiceDate>
 						</Invoice>
 						<Invoice>
 							<InvoiceOrderNo>99999</InvoiceOrderNo>
-							<InvoiceNo>a</InvoiceNo>
+							<InvoiceNo>a-02</InvoiceNo>
 							<InvoiceDate>2001-12-17T09:30:47Z</InvoiceDate>
 						</Invoice>
 					</Invoices>
