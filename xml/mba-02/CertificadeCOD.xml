@@ -112,7 +112,7 @@
 			<CertificateID>BO000A0000---------------00</CertificateID>
 		</CertificationEH>
 	</CODEH>
-	<ds:Signature>
+	<!--<ds:Signature>
 		<ds:SignedInfo>
 			<ds:CanonicalizationMethod Algorithm="http://www.intercom.com/"/>
 			<ds:SignatureMethod Algorithm="http://www.intercom.com/"/>
@@ -122,5 +122,5 @@
 			</ds:Reference>
 		</ds:SignedInfo>
 		<ds:SignatureValue>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</ds:SignatureValue>
-	</ds:Signature>
+	</ds:Signature>-->
 </CertOrigin>
