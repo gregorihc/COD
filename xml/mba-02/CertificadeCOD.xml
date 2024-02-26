@@ -19,7 +19,7 @@
 						<ExporterAddress>a</ExporterAddress>
 						<ExporterCityLocality>a</ExporterCityLocality>
 						<ExporterTaxIdentification>a</ExporterTaxIdentification>
-						<ExporterTelephone>+5134567890123456</ExporterTelephone>
+						<ExporterTelephone>+514567890123456</ExporterTelephone>
 						<ExporterEmail>exportadora@example.com</ExporterEmail>
 						<ExporterURL>http://www.intercom.com/</ExporterURL>
 					</Exporter>
@@ -65,7 +65,7 @@
 						<ImporterAddress>a</ImporterAddress>
 						<ImporterCity>a</ImporterCity>
 						<ImporterTaxIdentification>a</ImporterTaxIdentification>
-						<ImporterTelephone>+5134567890123456</ImporterTelephone>
+						<ImporterTelephone>+514567890123456</ImporterTelephone>
 						<ImporterEmail>importadora@example.com</ImporterEmail>
 						<ImporterURL>http://www.intercom.com/</ImporterURL>
 					</Importer>
@@ -102,7 +102,7 @@
 			<EHName>a</EHName>
 			<EHAddress>a</EHAddress>
 			<EHCityLocality>a</EHCityLocality>
-			<EHTelephone>00000000</EHTelephone>
+			<EHTelephone>+514567890123456</EHTelephone>
 			<EHEmail>eh@example.com</EHEmail>
 			<EHURL>http://www.intercom.com/</EHURL>
 		</EH>
