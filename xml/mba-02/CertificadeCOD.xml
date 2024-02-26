@@ -19,7 +19,7 @@
 						<ExporterAddress>a</ExporterAddress>
 						<ExporterCityLocality>a</ExporterCityLocality>
 						<ExporterTaxIdentification>a</ExporterTaxIdentification>
-						<ExporterTelephone>00000000</ExporterTelephone>
+						<ExporterTelephone>+5134567890123456</ExporterTelephone>
 						<ExporterEmail>exportadora@example.com</ExporterEmail>
 						<ExporterURL>http://www.intercom.com/</ExporterURL>
 					</Exporter>
@@ -65,7 +65,7 @@
 						<ImporterAddress>a</ImporterAddress>
 						<ImporterCity>a</ImporterCity>
 						<ImporterTaxIdentification>a</ImporterTaxIdentification>
-						<ImporterTelephone>00000000</ImporterTelephone>
+						<ImporterTelephone>+5134567890123456</ImporterTelephone>
 						<ImporterEmail>importadora@example.com</ImporterEmail>
 						<ImporterURL>http://www.intercom.com/</ImporterURL>
 					</Importer>
